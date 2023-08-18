@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   post("/insert_department", { :controller => "departments", :action => "create" })
 
-  get("/departments", { :controller => "departments", :action => "index" })
+  #get("/departments", { :controller => "departments", :action => "index" })
   
   post("/modify_department/:path_id", { :controller => "departments", :action => "update" })
 
